@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{341c9caf-e4bf-4224-a68a-91dde46449b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{d098c582-da01-48fd-9579-6ad428aae79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\output">
+      <UniqueIdentifier>{d6589a4d-03b8-440f-a049-ea536b0c163a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\output">
+      <UniqueIdentifier>{fbdf46f7-f294-4254-b97b-3b44b4e05632}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZirEngine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ZirEngine\output\z_Window.cpp">
+      <Filter>Source Files\Engine\output</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ZirEngine\Engine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ZirEngine\output\z_Window.h">
+      <Filter>Header Files\Engine\output</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
